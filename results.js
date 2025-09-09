@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", () => {
         window.location.href = "RecipeMaker.html";
 
     })
-    // 1. Get ingredients from localStorage
+    
     const stored = localStorage.getItem("ingredientsArray");
     if (!stored) {
         container.innerHTML = "<p>No ingredients found. Please go back and add some!</p>";
